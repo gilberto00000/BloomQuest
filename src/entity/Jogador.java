@@ -41,14 +41,14 @@ public class Jogador extends Entidade {
     public void getPlayerImage(){
 
         try{
-            up1 = ImageIO.read(getClass().getResourceAsStream("/player/cima.png"));
-            up2 = ImageIO.read(getClass().getResourceAsStream("/player/cima1.png"));
-            down1 = ImageIO.read(getClass().getResourceAsStream("/player/baixo.png"));
-            down2 = ImageIO.read(getClass().getResourceAsStream("/player/baixo1.png"));
-            left1 = ImageIO.read(getClass().getResourceAsStream("/player/esquerda.png"));
-            left2 = ImageIO.read(getClass().getResourceAsStream("/player/esquerda1.png"));
-            right1 = ImageIO.read(getClass().getResourceAsStream("/player/direita.png"));
-            right2 = ImageIO.read(getClass().getResourceAsStream("/player/direita1.png"));
+            up1 = ImageIO.read(getClass().getResourceAsStream("/res/player/cima.png"));
+            up2 = ImageIO.read(getClass().getResourceAsStream("/res/player/cima1.png"));
+            down1 = ImageIO.read(getClass().getResourceAsStream("/res/player/baixo.png"));
+            down2 = ImageIO.read(getClass().getResourceAsStream("/res/player/baixo1.png"));
+            left1 = ImageIO.read(getClass().getResourceAsStream("/res/player/esquerda.png"));
+            left2 = ImageIO.read(getClass().getResourceAsStream("/res/player/esquerda1.png"));
+            right1 = ImageIO.read(getClass().getResourceAsStream("/res/player/direita.png"));
+            right2 = ImageIO.read(getClass().getResourceAsStream("/res/player/direita1.png"));
 
 
         }catch (IOException e) {

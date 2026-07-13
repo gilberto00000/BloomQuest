@@ -25,7 +25,7 @@ public class Bau extends Entidade {
 
     public void getImageBau(){
         try{
-             up1 = ImageIO.read(getClass().getResourceAsStream("/tiles/bau.png"));
+             up1 = ImageIO.read(getClass().getResourceAsStream("/res/tiles/bau.png"));
         }catch (IOException e){
             e.printStackTrace();
         }
