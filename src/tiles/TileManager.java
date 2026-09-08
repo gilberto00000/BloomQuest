@@ -106,9 +106,6 @@ public class TileManager {
             tile[14].image = ImageIO.read(getClass().getResourceAsStream("/res/tiles/areia8.png"));
 
 
-
-
-
         }catch(IOException e) {
             e.printStackTrace();
         }

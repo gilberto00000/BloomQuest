@@ -41,7 +41,6 @@ public class PainelDoJogo extends JPanel implements Runnable {
                 drawCounter++;
             }
             if (timer >= 1000000000){
-                System.out.println("FPS: " + drawCounter);
                 drawCounter = 0;
                 timer = 0;
             }
